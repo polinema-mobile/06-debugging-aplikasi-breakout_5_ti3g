@@ -23,4 +23,5 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
         assertEquals("id.putraprima.mobile06siplecalcsolution", appContext.getPackageName());
     }
+
 }

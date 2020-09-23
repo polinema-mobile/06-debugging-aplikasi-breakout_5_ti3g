@@ -84,6 +84,9 @@ public class MainActivity extends AppCompatActivity {
         }catch (NumberFormatException e){
             Toast toast1 = Toast.makeText(MainActivity.this, "Invalid input",Toast.LENGTH_SHORT);
             toast1.show();
+        }catch (ArithmeticException e){
+            Toast toast1 = Toast.makeText(MainActivity.this, "Invalid output",Toast.LENGTH_SHORT);
+            toast1.show();
         }
     }
 }
